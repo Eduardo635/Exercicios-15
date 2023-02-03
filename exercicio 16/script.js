@@ -11,7 +11,7 @@ if(fano.value.length == 0 || fano.value > ano){
         var idade = ano - Number(fano.value) 
          var gênero = ''
          var img = document.createElement('img')
-         img.setAttribute('id', 'foto')
+         
          if(fsex[0].checked){
             gênero = 'homem'
             if(idade >= 0 && idade < 10){
